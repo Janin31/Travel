@@ -55,7 +55,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("images/header.jpg");
+    url("header.jpg");
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -117,8 +117,6 @@
 
 .header .icons {
   width: 100%;
-  /* display: flex; */
-  /* align-items: center; */
   justify-content: space-evenly;
 }
 
