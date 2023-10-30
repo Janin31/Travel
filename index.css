@@ -474,7 +474,7 @@
 
 .sectionF {
   width: 100%;
-  height: 900px;
+  height: 950px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -482,25 +482,16 @@
 }
 .sectionF .holder4 {
   width: 90%;
-  height: 90%;
+  height: 700px;
   display: flex;
   justify-content: space-around;
 }
 .sectionF .holder4 .left {
   width: 40%;
-  height: 90%;
+  height: 500px;
   display: flex;
   flex-direction: column;
 }
-
-.sectionF .holder4 .right {
-  width: 40%;
-  height: 95%;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
-}
-
 .sectionF .holder4 ul {
   font-size: 19px;
   list-style: none;
@@ -512,7 +503,6 @@
   display: flex;
   align-items: center;
 }
-
 .sectionF .holder4 ul li i {
   margin-right: 7px;
   color: #8e8358;
@@ -535,7 +525,13 @@
   width: 95%;
   height: 95%;
 }
-
+.sectionF .holder4 .right {
+  width: 45%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
 .sectionF .holder4 .right .pic2 {
   width: 100%;
   height: 100%;
